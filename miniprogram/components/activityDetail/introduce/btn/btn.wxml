@@ -1,0 +1,4 @@
+<view class="btn">
+  <navigator class="leftBtn" url="/pages/editActivity/editActivity">上一步</navigator>
+  <navigator class="rightBtn" url="/pages/editActTicket/editActTicket">下一步</navigator>
+</view>

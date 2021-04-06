@@ -1,0 +1,31 @@
+<view class="mainPage">
+  <view class="mainTitle">默认项</view>
+  <view class="mainContent">
+    <view>
+      <text>
+        姓名
+      </text>
+        <input type="text" placeholder="请输入姓名"/>
+    </view>
+    <view>
+      <text>
+        性别
+      </text>
+        <TwoRadioBtn></TwoRadioBtn>
+    </view>
+    <view>
+      <text>
+        联系方式
+      </text>
+        <input type="text" placeholder="请输入联系方式"/>
+    </view>
+    <view>
+      <text>
+        就读学校
+      </text>
+        <input type="text" placeholder="例：广东工业大学"/>
+    </view>
+  </view>
+    
+</view>
+  

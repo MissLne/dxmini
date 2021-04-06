@@ -1,0 +1,14 @@
+.navBtnGroup {
+  width: 654rpx;
+  height: 130rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 26rpx;
+  color: #666;
+  transition: .1s;
+}
+.navBtnGroupItem {
+  margin-right: 55rpx;
+} 

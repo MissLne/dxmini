@@ -1,0 +1,13 @@
+<view class="nRadioBtn">
+  <view class="oneBtn {{man? 'active1' : ''}}">
+    <view class="radioBtn {{man? 'active': ''}}" bindtap="checkedHandle" data-num="{{0}}">
+    </view>
+    男
+  </view>
+  <view class="oneBtn {{feman? 'active1' : ''}}">
+    <view class="radioBtn {{feman? 'active': ''}}" bindtap="checkedHandle" data-num="{{1}}">
+    </view>
+    女
+  </view>
+</view>
+  

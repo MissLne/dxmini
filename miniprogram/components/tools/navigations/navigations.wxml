@@ -1,0 +1,6 @@
+<view class="navBtnGroup">
+  <view wx:for="{{navArray}}" wx:key="index" data-index="{{index}}" bindtap="handleClick" class="{{index === changeCount? 'parent-class' : ''}} navBtnGroupItem">
+  {{item}}
+  </view>
+</view>
+  

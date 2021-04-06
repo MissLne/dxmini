@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "Top": "/components/activityDetail/ticket/top/top",
+    "TicketMain": "/components/activityDetail/ticket/ticketMain/ticketMain",
+    "TicketBtn": "/components/activityDetail/ticket/ticketBtn/ticketBtn",
+    "TicketFoot": "/components/activityDetail/ticket/ticketFoot/ticketFoot"
+  },
+  "navigationBarBackgroundColor": "#4D9BFA",
+  "navigationBarTitleText": "发布活动",
+  "navigationBarTextStyle": "white"
+}

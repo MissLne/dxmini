@@ -1,0 +1,33 @@
+<view class="ticketPage">
+  <view class="title">
+    <view>早鸟票</view>
+    <view>删除</view>
+  </view>
+
+  <view class="price">
+    <view>价格</view>
+    <input placeholder="输入0即为免费票"/>
+  </view>
+
+  <view class="count">
+    <view>数目</view>
+    <input placeholder="输入0即为不限数目"/>
+  </view>
+
+  <view class="introTicket">
+      票种介绍<text>(选填)</text>
+    
+  </view>
+
+  <input type="text" placeholder=" 请用一句话介绍此票种" class="introInput"/>
+  <view class="footer">
+    <text >不可退票的票种钱款将在报名后方可提现</text>
+    <view class="radioB">
+      <radioBtn/>不可退票
+    </view>
+      
+  </view>
+    
+</view>
+
+  

@@ -1,0 +1,63 @@
+.ticketPage {
+  width: 690rpx;
+  background: #fff;
+  border-radius: 30rpx;
+  margin: 45rpx auto;
+  padding: 20rpx 70rpx;
+}
+.title,
+.price,
+.count {
+  margin-bottom: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.title view:nth-child(1) {
+  color: #4D9BFA;
+  font-size: 24rpx;
+  border-bottom: 4rpx solid #4D9BFA;
+}
+.title view:nth-child(2) {
+  font-size: 22rpx;
+  color: #FF7272;
+  text-decoration: underline;
+}
+.price,
+.count {
+  font-size: 26rpx;
+  border-bottom: 1rpx solid rgba(0, 0, 0,0.1);
+}
+.price input,
+.count input {
+  font-size: 20rpx;
+  width: 350rpx;
+}
+.introTicket {
+  color: #333333;
+  font-size: 26rpx;
+}
+.introTicket text {
+  color: #666;
+  font-size: 24rpx;
+}
+.introInput {
+  width: 585rpx;
+  height: 60rpx;
+  border: 2rpx solid #4D9BFA;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18rpx;
+  color: #999;
+}
+.radioB {
+  width: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

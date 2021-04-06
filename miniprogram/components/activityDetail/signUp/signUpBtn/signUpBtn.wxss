@@ -1,0 +1,44 @@
+
+.preserve {
+  width: 190rpx;
+  height: 60rpx;
+  border: 2rpx solid #EF7685;
+  border-radius: 24rpx;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EF7685;
+  margin: 0 auto;
+}
+.btn {
+  width: 690rpx;
+  margin: 30rpx auto;
+  display: flex;
+  justify-content: space-around;
+}
+.leftBtn {
+  color: #4D9BFA;
+  border: 1rpx solid #4D9BFA;
+  background: #FFF;
+}
+.rightBtn {
+  color: #fff;
+  background: #4D9BFA;
+}
+.rightBtn,
+.leftBtn {
+  width: 180rpx;
+  height: 80rpx;
+  font-size: 34rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40rpx;
+}
+.allBtn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

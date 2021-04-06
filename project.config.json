@@ -1,0 +1,116 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "appid": "wxb7ea06b09d0cc1ab",
+  "projectname": "dx-app",
+  "libVersion": "2.14.1",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "编辑活动",
+          "pathName": "pages/editActivity/editActivity",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "介绍",
+          "pathName": "pages/activityIntroduce/activityIntroduce",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "票",
+          "pathName": "pages/editActTicket/editActTicket",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "报名信息",
+          "pathName": "pages/activitySignUp/indactivitySignUpex",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "活动管理主页",
+          "pathName": "pages/activityManage/actManagePage/actManagePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "消息主页",
+          "pathName": "pages/message/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我",
+          "pathName": "pages/user/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

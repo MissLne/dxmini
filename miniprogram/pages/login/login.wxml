@@ -1,0 +1,29 @@
+<view class="loginPage">
+    <view class="loginBox">
+      <view class="logo">
+      <image src="../../style/images/LOGO.png"/>
+    </view>
+    <view>
+      <navigator class="registerBtn" url="/pages/register/register">商家入驻</navigator>
+    </view>
+
+    <view>
+      <view class="loginInput">
+        <image src="../../style/images/account@2x.png"/>
+        <input placeholder="请输入账号" bindinput="accountEdit" value="{{account}}"/>
+      </view>
+      <view class="loginInput">
+        <image src="../../style/images/password@2x.png"/>
+        <input placeholder="请输入密码" password bindinput="passwordEdit" value="{{password}}"/>
+      </view>
+      <view class="forget">
+        <navigator url="/pages/forgetPsd/forgetPsd">忘记密码</navigator>
+      </view>
+  </view>
+  
+  <image class="loginBtn" src="../../style/images/enable_next@2x.png" bindtap="handleLogin"/>
+    </view>
+    <image class="footImg" src="../../style/images/underwardpaint@2x.png"/>
+
+
+</view>

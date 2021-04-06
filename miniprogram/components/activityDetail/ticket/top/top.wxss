@@ -1,0 +1,26 @@
+.edit-page {
+  width: 690rpx;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-img {
+  width: 485rpx;
+  height: 20rpx;
+  margin-top: 40rpx;
+}
+.edit-top text {
+  display: inline-block;
+  margin: 15rpx 20rpx 20rpx 20rpx;
+  color: #777777;
+  font-size: 24rpx;
+}
+.edit-top text:nth-child(1),
+.edit-top text:nth-child(2),
+.edit-top text:nth-child(3) {
+  color: #4D9BFA;
+}

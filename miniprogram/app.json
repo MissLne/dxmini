@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/editActTicket/editActTicket",
+    "pages/message/index",
+    "pages/activitySignUp/indactivitySignUpex",
+    "pages/user/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forgetPsd/forgetPsd",
+    "pages/editActivity/editActivity",
+    "components/activityItem/index",
+    "components/activityDetail/introduce/introduceTop/introduceTop",
+    "components/activityDetail/introduce/second/second",
+    "components/activityDetail/introduce/third/third",
+    "components/activityDetail/introduce/btn/btn",
+    "components/activityDetail/ticket/top/top",
+    "components/activityDetail/ticket/ticketMain/ticketMain",
+    "components/activityDetail/ticket/ticketBtn/ticketBtn",
+    "components/activityDetail/ticket/ticketFoot/ticketFoot",
+    "components/activityDetail/signUp/signUpTop/signUpTop",
+    "components/activityDetail/signUp/signUpMain/signUpMain",
+    "components/activityDetail/signUp/signUpNew/signUpNew",
+    "components/activityDetail/signUp/signUpBtn/signUpBtn",
+    "components/tools/radioBtn/radioBtn",
+    "components/messageCom/question/question",
+    "components/tools/twoRadioBtn/twoRadioBtn",
+    "components/tools/navigations/navigations",
+    "components/userComponents/userMain/userMain",
+    "components/userComponents/userMaterial/userMaterial",
+    "pages/activityIntroduce/activityIntroduce",
+    "pages/activityManage/actManagePage/actManagePage"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4D9BFA",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "活动",
+        "iconPath": "style/images/huodong1.png",
+        "selectedIconPath": "style/images/activity-close.png"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "消息",
+        "iconPath": "style/images/一级页面消息.png",
+        "selectedIconPath": "style/images/activity-close.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我",
+        "iconPath": "style/images/一级页面我.png",
+        "selectedIconPath": "style/images/activity-close.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

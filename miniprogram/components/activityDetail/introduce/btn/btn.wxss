@@ -1,0 +1,25 @@
+.rightBtn,
+.leftBtn {
+  width: 180rpx;
+  height: 80rpx;
+  font-size: 34rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40rpx;
+}
+.btn {
+  width: 690rpx;
+  margin: 60rpx auto;
+  display: flex;
+  justify-content: space-around;
+}
+.leftBtn {
+  color: #FF7272;
+  border: 1rpx solid #FF7272;
+  background: #FFF;
+}
+.rightBtn {
+  color: #fff;
+  background: #4D9BFA;
+}
